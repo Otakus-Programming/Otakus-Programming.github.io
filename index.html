@@ -119,5 +119,75 @@
 				<td>Elemento #3</td>
 			</tr>
 		</table>
+		PD: Se usa solamente para entablar datos que lo requieran.
+	</p>
+	<hr>
+	<h2>
+		Formularios.
+	</h2>
+	<p>
+		Un formulario es donde un usuario puede interactuar con el sitio web haciendo alguna accion.
+		<br>
+		Para crear un formulario su comando es "form", este comando tiene muchos atributos, pero los mas importantes son: 'action="" ' y 'method="" '.
+		<br>
+		A la hora de configurar un formulario tiene varios codigos:
+		<ul>
+			<li>"input"</li>
+				Types
+				<ul> 
+					<li>"text" (default)</li>
+					<li>"password"</li>
+					<li>"checkbox" (seleccionar varias opciones)</li>
+					<li>"radio" (seleccionar una opcion)</li>
+					<li>"button" (boton para realizar accion)</li>
+					<li>"submit" (boton para enviar los datos del formulario)</li>
+				</ul>
+			Atributos: type="" (tipo de texto), name="" (nombre del valor),values="" (asigna texto dentro del input,opcional), placeholder="" (recomendado), maxlength="" (caracteres maximos), id="" (indentificador).
+			<li>"label"</li>
+			Atributos: for="" (se une con el id).
+			<li>"select"</li>
+			Es una lista desplegable con opciones.
+			<br>
+			Atributos: value=""
+			
+		</ul>
+		<br>
+		Ejemplos:
+		<br>
+		<form>
+			<ul>
+				<label for="nombre">Ingrese su nombre: </label>
+				<input type="text" placeholder="Escribe tu nombre" name="nombre" maxlength="15" id="nombre">
+				<br><br>
+				<label for="contraseña">Ingrese su contraseña: </label>
+				<input type="password" placeholder="Escriba su contraseña" name="contraseña" id="contraseña" minlength="8">
+				<br><br>
+				<label for="correo">Ingrese su correo</label>
+				<input type="email" placeholder="Escriba su correo" name="correo" id="correo">
+				<br><br>
+				<input type="checkbox" name="" id="1">Hombre
+				<input type="checkbox" name="" id="1">Mujer
+				<br><br>
+				<input type="radio" name="" id="1">Hombre
+				<input type="radio" name="" id="1">Mujer
+				<br><br>
+				<input type="button" value="Enviar">
+				<br><br>
+				<input type="submit" value="Enviar consulta">
+				<br><br>
+				<select name="" id="">
+					<option value="Argentina">Argentina</option>
+					<option value="España">España</option>
+					<option value="Japon">Japon</option>
+				</select>
+			</ul>
+			
+		</form> 
+	<br>
+	<br>
+
+	Atte: Yair Juarez
+	<br>
+	lastmod: 14/5/21 1:58 AM
 	</p>
 </html>
