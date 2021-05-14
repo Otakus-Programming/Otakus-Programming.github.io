@@ -60,14 +60,64 @@
 		Comandos de Listas
 	</h2>
 	<p>
-		Lista basica de items: se usa para dejar un espacio de "Tab" el comando "ul" y para crear un item de la lista es con "li", Ejemplo: 
+		Lista desordenadas: se crea un lista desordenada con "ul" y para crear un item de la lista es con "li", Ejemplo: 
 		<ul>
-			<li>Item #1</li>
+			<li><a href="index2.html">Item #1</a></li>
 			<li>Item #2</li>
-			<li>Item #3</li>
+				<ul>
+					<li>Sub Item #1</li>
+					<li>Sub Item #2</li>
+				</ul>
+			</li>
 			<li>Item #4</li>
 			<li>Item #5</li>
 		</ul>
+		PD: Podemos modificar las listas para que puedan ser links, se puede crear una sub lista(poniendo 2 "ul")
+		<br>
+		<br>
+		Listas ordenadas: se crea una lista ordenada con "ol" y para crear un item de la lista es con "li", Ejemplo:
+		<ol>
+			<li>Item #1</li>
+			<li>Item #2</li>
+			<li>Item #3</li>
+		</ol>
 	</p>
 	<hr/>
+	<h2>
+		Comandos de Imagenes
+	</h2>
+	<p>
+		Para colocar imagenes se usa el "img". con 'src="" ' elegimos el directorio del archivo de imagen, Ejemplo:
+		<br><br>
+		<img src="https://fondosmil.com/fondo/58034.jpg" title="Imagen sacada de internet" alt="photo_test" width="700" height="300">
+		<br>
+		<br>
+		Para modificar el tamaño de la imagen usamos los atributos "width=" y "height=". Otro atributo importante es "alt=" este atributo es cuando no se puede ver la imagen nos da un texto que representa la imagen
+	</p>
+	<hr>
+	<h2>
+		Tablas
+	</h2>
+	<p>
+		Las tablas sirven para estructurar datos que no sea la maqueta del diseño web.
+		<br>
+		Para crear una tabla se usa "table", dentro de una tabla debe haber filas, estas filas se crean con "tr" y despues se crean elementos por cada columna (elemendo= columna).
+		<table>
+			<tr>
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+			<tr>
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+			<tr>
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+		</table>
+	</p>
 </html>
