@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Aprender HTML</title>
+	<title>Primera pagina</title>
 	<link rel="shortcut icon " type="image/x-icon" href="images/icon.ico">
+	<meta name="description" content="Los textos de estructura se usan principalmente con 'p', uno parecido es 'pre' es casi igual que 'p' pero este respeta todo los espacios hechos dentro "/>
+	<meta name="keywords" content="diseño, desarrollo, paginas web, " />
+
 </head> 
 <body style="background: #09b9aec4">
 	<!--h1 es para titulos-->
@@ -12,7 +15,9 @@
 	<hr/>
 	<h2>Comandos de escritura.</h2>
 	<p>
-		hay diferentes tipos de salida de texto, las cabezeras o titulos se usan los "h#" (h1-h6), el h1 es el mas grande mientras que el h6 es el mas chico.
+		hay diferentes tipos de salida de texto, las cabezeras o titulos se usan los "h#" (h1-h6), el h1 es el mas grande mientras que el h6 es el mas chico. 
+		<br>
+		PD: los "h#" solo se puede usar una ves por numero,si no te penalizan.
 		<br/>Los textos de estructura se usan principalmente con "p", uno parecido es "pre" es casi igual que "p" pero este respeta todo los espacios hechos dentro del mismo.  
 		otro puede ser "blockquote" que es una cita (Deja un espacio en sangria). Ejemplo:
 		<br>
@@ -182,7 +187,55 @@
 				</select>
 			</ul>
 			
-		</form> 
+		</form>
+	<hr>
+	<h2>
+		Estructuras.
+	</h2>
+	<p>
+		el comando "div" es para agregar contenido.
+		<br>
+		El comando "nav" es un menu de navegacion
+		<br>
+		El comando "section" crea una seccion.
+		<br>
+		El comando "aside" se algo irrelevante ante el buscador, pero es contenido secundario
+		<br>
+		El comando "article" nos permite crear articulos, se utiliza para que google busque primero por ese comando.
+		<br>
+		Atributos: "class" (definicion de un objeto)
+	</p>
+	<hr>
+	<h2>
+		Metadatos.
+	</h2>
+	<p>
+		Los metados son informacion que nosotros damos al navegador web o a los buscadores para que identifiquen la informacion rapidamente que nosotros (los dueños) queremos. ejemplo: nos sirve para darle una inscripcion a google de lo que es nuestro sitio y que lo pueda ordenar.
+		<br>
+		<br>
+		<h3>Comandos</h3>
+		Los metadatos se escriben siempre en "head" con el comando "meta" dentro de ese comando van varios atributos, pero los las importantes son "name=" (es el tipo de meta que vamos a usar) y "content=" (el contenido de name)
+		<br>
+		Atributo "name": los valores de name es: description (descripcion) y keywords (palabras claves)
+		Atributo "content": si el valor de name es description, se coloca una pequeña descripcion con 150 caracteres recomendados. Si el valor de name es keywords, se escribe palabras clave de tu pagina separada por cada palabra con una coma
+
+	</p>
+
+	<hr>
+	<h2>
+		Comandos Extras
+	</h2>
+	<p>
+		comando para estilos en css: "link" el comando link es para abrir un archivo o seleccionarlo. 
+		<br>Atributos:
+		<ul>
+			<li>rel="" : relacion que matiene el documento. (rel="stylesheet" para css)</li>
+			<li>type="" : tipo de control (type="text/css"))</li>
+			<li>href="" direccion del archivo o documento (ej: href="estilos.css" or href="http://www.as.com/estilos.css")</li>
+		</ul>
+		<br>
+		comando para agregar codigos javascript: "script" se puede escribir los codigos dentro de "script", o tambien se puede importar con un atributo ' src="". (src="javascript.js")
+	</p>
 	<br>
 	<br>
 
